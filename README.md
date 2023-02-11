@@ -25,16 +25,9 @@ This generator microservice produces a random string of a specified length. The 
 * The generator microservice produces a random string of the specified length.
 * The random key is delineated by an asterisk in the beginning and at the end.
 
-```
-code blocks for commands
-```
-
 ## Help
 
 Any errors regarding file path would occur if the generator-service.txt file is placed outside of the main project folder. To avoid this error, please specify the absolute path to the generator-service.txt file or place it in the main project folder.
-```
-command to run if program contains helper info
-```
 
 ## Authors
 

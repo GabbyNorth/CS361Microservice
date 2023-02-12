@@ -1,4 +1,4 @@
-# Project Title
+# CS361 Microservice
 
 Microservice: String Generator
 

@@ -1,12 +1,9 @@
-# Gabby Narmontaite
-# CS361 Assignment 8
-# February 11, 2023
 
 import string
 import random
 import time
 
-print("\ngenerator running...")
+print("\ngenerator service running...")
 
 while True:
 

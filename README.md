@@ -4,7 +4,7 @@ Microservice: String Generator
 
 ## Description
 
-This generator microservice produces a random string of a specified length. The characters include all lowercase and uppercase letters of the alphabet and a random number of spaces in the set.
+This generator microservice produces a random string of a specified length. The characters include all uppercase letters of the alphabet and a random number of spaces in the set.
 
 ## Getting Started
 
@@ -45,6 +45,7 @@ After making a request for a randomly generated string, the main program can rea
         end = data.index('*', start + 1)
         key = data[start+1:end]
 ```
+To exit the service write 'exit' to the same text file. The service will wipe the file and terminate.
 
 ## Help
 

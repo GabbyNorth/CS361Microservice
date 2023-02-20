@@ -34,6 +34,5 @@ while True:
         print(spaces)
 
         time.sleep(2)
-        edt.truncate(0)
 
         edt.close()

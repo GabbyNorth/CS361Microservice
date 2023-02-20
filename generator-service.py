@@ -35,4 +35,10 @@ while True:
 
         time.sleep(2)
 
+        edt = open('generator-service.txt', 'r')
+
+    if edt.read() == 'exit':
+        edt = open('generator-service.txt', 'w')
+        edt.truncate(0)
         edt.close()
+        sys.exit()

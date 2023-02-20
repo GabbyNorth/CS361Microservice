@@ -17,7 +17,7 @@ while True:
         counter = 0
         key = ''
         spaces = random.randint(0, 45)
-        chars = string.ascii_letters + " " * spaces
+        chars = string.ascii_uppercase + " " * spaces
 
         while counter < local_val:
             char = random.choice(chars)
